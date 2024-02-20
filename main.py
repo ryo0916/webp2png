@@ -1,6 +1,5 @@
 # Tkinter
 import tkinter as tk
-from tkinter import ttk
 root = tk.Tk()
 root.title('webp2png')
 root.geometry('200x100')
@@ -13,7 +12,6 @@ def convert():
 # まずCUIでWebP→PNG変換器を作る
 from PIL import Image
 import glob, os
-import sys
 
 # 変換先拡張子
 IMG_FORMAT = 'png'
