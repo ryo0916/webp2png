@@ -2,7 +2,8 @@
 import tkinter as tk
 from tkinter import ttk
 root = tk.Tk()
-root.geometry("200x100")
+root.title('webp2png')
+root.geometry('200x100')
 
 # 変換と保存
 def convert():
